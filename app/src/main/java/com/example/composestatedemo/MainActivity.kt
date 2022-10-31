@@ -43,10 +43,10 @@ fun MyButton(currentCount:Int, updateCount:(Int)->Unit){
         updateCount(currentCount)
     },
         contentPadding = PaddingValues(16.dp),
-        border = BorderStroke(10.dp, Color.Black),
+        border = BorderStroke(10.dp, Color.Blue),
         colors = ButtonDefaults.textButtonColors(
-            backgroundColor = Color.DarkGray,
-            contentColor = Color.White
+            backgroundColor = Color.LightGray,
+            contentColor = Color.Black
         )
     ) {
         Text("Count is : $currentCount",
